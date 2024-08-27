@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSMS Gaddipally Time Table</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(120deg, #fdfbfb, #ebedee);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            background: #ffffff;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            overflow-x: auto;
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #444;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #777;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 15px;
+            text-align: center;
+            font-size: 16px;
+        }
+
+        th {
+            background-color: #f8f9fa;
+            font-weight: bold;
+            color: #444;
+        }
+
+        td {
+            background-color: #fefefe;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f7f7f7;
+        }
+
+        tr:hover td {
+            background-color: #f1f1f1;
+        }
+
+        .header {
+            background-color: #3f51b5;
+            color: #ffffff;
+            font-size: 22px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .sub-header {
+            background-color: #5c6bc0;
+            color: #ffffff;
+            font-size: 20px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .interval,
+        .lunch-break {
+            background-color: #ffe082;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 28px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            th,
+            td {
+                padding: 10px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>TSMS Gaddipally Time Table: 2023-24</h1>
+       
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="12" class="header">TG Model School, Gaddipally, Time Table: 2023-24</th>
+                </tr>
+                <tr>
+                    <th colspan="12" class="sub-header">Prayer Time: 09:30-09:45</th>
+                </tr>
+                <tr>
+                    <th>Period</th>
+                    <th>1</th>
+                    <th>2</th>
+                    <th class="interval">Interval</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th class="lunch-break">Lunch Break</th>
+                    <th>5</th>
+                    <th>6</th>
+                    <th class="interval">Interval</th>
+                    <th>7</th>
+                    <th>8</th>
+                </tr>
+                <tr>
+                    <th>Class</th>
+                    <th>09:45-10:30</th>
+                    <th>10:30-11:15</th>
+                    <th class="interval">11:15-11:30</th>
+                    <th>11:30-12:15</th>
+                    <th>12:15-01:00</th>
+                    <th class="lunch-break">01:00-01:45</th>
+                    <th>01:45-02:30</th>
+                    <th>02:30-03:15</th>
+                    <th class="interval">03:15-03:25</th>
+                    <th>03:25-04:05</th>
+                    <th>04:05-04:45</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>VI(A)</th>
+                    <td>MAT(1-6)</td>
+                    <td>SOC(1-6)</td>
+                    <td class="interval" rowspan="10"></td>
+                    <td>CCA/LIB</td>
+                    <td>ENG(1-6)</td>
+                    <td class="lunch-break" rowspan="10"></td>
+                    <td>TEL(1-6)</td>
+                    <td>HIN(1-6)</td>
+                    <td class="interval" rowspan="10"></td>
+                    <td colspan="2">SCI(1,3,5)<br>GAMES(2,4,6)</td>
+                </tr>
+                <tr>
+                    <th>VI(B)</th>
+                    <td>SOC(1-6)</td>
+                    <td>MAT(1-6)</td>
+                    <td>ENG(1-6)</td>
+                    <td>HIN(1-6)</td>
+                    <td>CCA/LIB</td>
+                    <td>TEL(1-6)</td>
+                    <td colspan="2">SCI(1,3,5)<br>GAMES(2,4,6)</td>
+                </tr>
+                <tr>
+                    <th>VII(A)</th>
+                    <td>SCI(1-6)</td>
+                    <td>HIN(1-6)</td>
+                    <td>TEL(1-6)</td>
+                    <td>MAT(1-6)</td>
+                    <td>ENG(1-6)</td>
+                    <td>CCA/LIB</td>
+                    <td colspan="2">GAMES(1,3,5)<br>SOC(2,4,6)</td>
+                </tr>
+                <tr>
+                    <th>VII(B)</th>
+                    <td>HIN(1-6)</td>
+                    <td>SCI(1-6)</td>
+                    <td>MAT(1-6)</td>
+                    <td>TEL(1-6)</td>
+                    <td>SOC(1-6)</td>
+                    <td>CCA/LIB</td>
+                    <td colspan="2">GAMES(1,3,5)<br>ENG(2,4,6)</td>
+                </tr>
+                <tr>
+                    <th>VIII(A)</th>
+                    <td>TEL(1-6)</td>
+                    <td>ENG(1-6)</td>
+                    <td>SOC(1-6)</td>
+                    <td>SCI(1-6)</td>
+                    <td>CCA/LIB</td>
+                    <td>MAT(1-6)</td>
+                    <td colspan="2">HIN(1,3,5)<br>MATHS(2)</td>
+                </tr>
+                <tr>
+                    <th>VIII(B)</th>
+                    <td>ENG(1-6)</td>
+                    <td>TEL(1-6)</td>
+                    <td>HIN(1-6)</td>
+                    <td>MAT(1-6)</td>
+                    <td>SCI(1-6)</td>
+                    <td>CCA/LIB</td>
+                    <td colspan="2">SOC(1,3,5)<br>MATHS(2)</td>
+                </tr>
+                <tr>
+                    <th>IX(A)</th>
+                    <td>ENG(1-6)</td>
+                    <td>MAT(1-6)</td>
+                    <td>BIO(1-6)</td>
+                    <td>SOC(1-6)</td>
+                    <td>PHY(1-6)</td>
+                    <td>MAT(1-6)</td>
+                    <td colspan="2">TEL(1,3,5)<br>CCA(2)<br>MAT(4)<br>CCA(6)</td>
+                </tr>
+                <tr>
+                    <th>IX(B)</th>
+                    <td>TEL(1-6)</td>
+                    <td>HIN(1-6)</td>
+                    <td>BIO(1-6)</td>
+                    <td>SOC(1-6)</td>
+                    <td>PHY(1-6)</td>
+                    <td>MAT(1-6)</td>
+                    <td colspan="2">CCA(1)<br>ENG(2,4,6
+

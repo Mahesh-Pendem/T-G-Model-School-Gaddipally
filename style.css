@@ -1,0 +1,98 @@
+
+hr {
+    border-style: none;
+    border-top-style: ridge;
+    border-color: #410168;
+    border-width: 4px;
+    width: 100%;
+}
+h1 {
+    font-style: normal;
+    color: rgb(253, 254, 254);
+    background-color: #9a03f7;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+h3 {
+    font-style: normal;
+    color: rgb(253, 254, 254);
+    background-color: #9a03f7;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+#main{
+    font-style: normal;
+}
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    text-align: center;
+    font-weight: lighter;
+    border-radius: 20px;
+    padding: 10px 15px;
+    background-color: #9a03f7;
+    color: rgb(254, 254, 254);
+}
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+ 
+    background-image: url(https://wallpaperaccess.com/full/809182.jpg);
+
+    
+}  
+
+nav {
+    display: flex;
+    gap: 0.5rem;
+}
+  
+#name {
+    flex: 1;
+    background-color:#9a03f7;
+    color: #fff;
+    border: 1px solid;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease-out;
+    border-radius: 20px;
+}
+  
+#name:hover,
+#name:focus {
+    background-color: #fff;
+    color: #9a03f7;
+}
+
+label {
+    display: block;
+    margin-top: .5em;
+}
+input{
+    border-radius: 10px;
+}
+input:focus {
+    background-color: #9a03f7;
+    border-radius: 10px;
+}
+textarea{
+    border-radius: 10px;
+}
+textarea:focus {
+    background-color: #9a03f7;
+    border-radius: 10px;
+}
+button {
+    background-color: #fff;
+    border-radius: 10px;
+}
+button:hover {
+    background-color: #9a03f7;
+    border-radius: 10px;
+}
+button:focus {
+    background-color: #01b11b;
+    border-radius: 10px;
+}
+
