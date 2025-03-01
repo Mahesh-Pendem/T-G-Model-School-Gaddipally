@@ -1,0 +1,202 @@
+body {
+    padding: 0px;
+    width: 100%;
+}
+
+.nav1 {
+    background-color: rgb(142, 3, 3);
+    height: 120px;
+    width: 100%;
+    display: flex;
+    padding: 10px 10px 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.text {
+    color:white;
+    margin: 1%;
+    text-align: center;
+    margin-top: -10px;
+    
+}
+
+.nav-items {
+    display: flex;
+    color: black;
+    margin-right: 80px;
+    line-height: 50px;
+}
+
+.navbar {
+    background-color: azure;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+#font {
+    font-size: 25px;
+}
+
+.font {
+    color: darkblue;
+    font-style: italic;
+    font-size: 15px;
+    height: 20px;
+}
+
+.container-fluid {
+    background-color: aliceblue;
+}
+
+.tlogo {
+    padding-bottom: 10px;
+}
+
+.logo {
+    margin-bottom: 10px;
+}
+
+#subhead {
+    font-size: 23px;
+}
+
+footer {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 1042px) {
+    #logo1 {
+        height: 50px;
+        width: 50px;
+    }
+    .navbar{
+      width:100px;
+      }
+
+    #logo2 {
+        height: 50px;
+        width: 50px;
+    }
+
+    #head {
+        font-size: 20px;
+    }
+
+    #subhead {
+        font-size: 10px;
+    }
+
+    .nav1 {
+        height: 70px;
+        padding-top: 3px;
+    }
+
+    #font {
+        font-size: 20px;
+    }
+
+    #navbar1 {
+        height: 50px;
+        width: 120px;
+    }
+
+    #copy {
+        padding: 7px;
+        font-size: 10px;
+    }
+
+    #hallticket:focus {
+        font-size: 10px;
+        width: 5%;
+    }
+
+    #home {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 520px) {
+    #logo1 {
+        height: 30px;
+        width: 30px;
+        margin-left: 4px;
+        margin-top: 4px;
+    }
+
+    #logo2 {
+        height: 30px;
+        width: 30px;
+        margin-right: 4px;
+        margin-top: 4px;
+    }
+
+    #head {
+        font-size: 11px;
+        margin-top: 4px;
+    }
+
+    #subhead {
+        font-size: 7px;
+        margin-bottom: 10px;
+    }
+
+    .nav1 {
+        height: 45px;
+        padding-top: 0px;
+        justify-content: center; /* Center the items in the nav */
+        gap: 5px; /* Add space between the nav items */
+    }
+
+    #font {
+        font-size: smaller;
+    }
+
+    #icon {
+        height: 15px;
+        width: 15px;
+        padding: 0px;
+    }
+
+    .nav-item {
+        font-size: 10px;
+        height: 50%;
+    }
+
+    #copy {
+        padding-top: 5px;
+        font-size: 10px;
+    }
+
+    #navbar1 {
+        width:120px; /* Adjust width to auto for better spacing */
+        background-color: azure;
+        margin-bottom: 20px;
+        padding: 5px; /* Add padding for better appearance */
+    }
+
+    #home {
+        font-size: 12px;
+    }
+
+    #hallticket {
+        font-size: 10px;
+    }
+
+    .dropdown-menu {
+        font-size: 5px;
+        border-width: 2%;
+    }
+
+    .dropdown-menu {
+        padding: 0px;
+    }
+
+    .dropdown-item {
+        width: 50%;
+        line-height: 15px;
+    }
+}
+

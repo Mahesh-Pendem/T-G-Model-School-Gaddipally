@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonafide Certificate Registration</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background-color: #e9ecef;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        form {
+            max-width: 500px;
+            width: 100%;
+            padding: 25px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: #555;
+        }
+
+        input[type="text"],
+        input[type="date"],
+        input[type="number"] {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+            box-sizing: border-box;
+            transition: border-color 0.3s;
+        }
+
+        input[type="text"]:focus,
+        input[type="date"]:focus,
+        input[type="number"]:focus {
+            border-color: #4CAF50;
+            outline: none;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: 600;
+            transition: background-color 0.3s;
+            width: 100%;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        .form-container {
+            width: 100%;
+            max-width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Bonafide Certificate Registration</h2>
+        <form method="post" action="bonafide.php">
+            <label for="admission">Admission Number:</label>
+            <input type="text" id="admission" name="add" required>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="fname">Father's/Mother's Name:</label>
+            <input type="text" id="fname" name="fname" required>
+
+            <label for="dob">Date of Birth (YYYY-MM-DD):</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <label for="from">From Class:</label>
+            <input type="text" id="from" name="from" required>
+
+            <label for="to">To Class:</label>
+            <input type="text" id="to" name="to" required>
+
+            <label for="year1">Year From:</label>
+            <input type="text" id="year1" name="year1" required>
+
+            <label for="year2">Year To:</label>
+            <input type="text" id="year2" name="year2" required>
+
+            <input type="submit" value="Generate Certificate">
+        </form>
+    </div>
+</body>
+</html>
+
