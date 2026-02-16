@@ -1,6 +1,6 @@
 <?php
 // Database connection details
-$host = "localhost:3306"; 
+$host = "localhost:3307"; 
 $username = "root"; 
 $password = "Mahesh@123";
 $database = "TGMS";

@@ -112,6 +112,7 @@ $msg = isset($_GET['msg']) ? $_GET['msg'] : '';
         <!-- Display error message if it exists -->
         <?php if ($msg != ''): ?>
             <div class="error-message">
+            //safely display a message (like an error or success message
                 <?php echo htmlspecialchars($msg); ?>
             </div>
         <?php endif; ?>

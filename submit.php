@@ -1,5 +1,5 @@
 <?php
-$servername = "localhost:3306";
+$servername = "localhost:3307";
 $username = "root";  // Replace with your MySQL username
 $password = "Mahesh@123";  // Replace with your MySQL password
 $dbname = "TGMS";  // The database name you created

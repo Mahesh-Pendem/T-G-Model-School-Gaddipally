@@ -1,6 +1,6 @@
 <?php
 // Database connection details
-$host = "localhost:3306"; // Replace with your host
+$host = "localhost:3307"; // Replace with your host
 $username = "root"; // Replace with your database username
 $password = "Mahesh@123"; // Replace with your database password
 $database = "TGMS"; // Replace with your database name
@@ -13,6 +13,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
+//check if the form was submitted using the HTTP POST method.
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $student_id = $conn->real_escape_string($_POST['student_id']);
     $password = $conn->real_escape_string($_POST['password']);
